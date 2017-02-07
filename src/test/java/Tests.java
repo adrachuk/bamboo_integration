@@ -1,10 +1,9 @@
- /**
+/*
  * Created by adrachuk on 22.11.2016.
  */
 import org.junit.Ignore;
 import org.junit.Test;
 
-import static java.lang.Thread.sleep;
 import static org.junit.Assert.assertEquals;
 public class Tests {
     @Test
@@ -22,7 +21,7 @@ public class Tests {
         assertEquals(true,false);
     }
 
- @Ignore   
+ @Ignore
  @Test
     public void testWarning(){
         assertEquals(true,true);
