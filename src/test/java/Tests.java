@@ -19,10 +19,11 @@ public class Tests {
 
     @Test
     public void testFailed(){
-        assertEquals(true,true);
+        assertEquals(true,false);
     }
 
-    @Test
+ @Ignore   
+ @Test
     public void testWarning(){
         assertEquals(true,true);
     }
